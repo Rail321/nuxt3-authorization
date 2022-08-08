@@ -2,7 +2,7 @@
   <div>
     <NuxtLayout>
       <div
-        v-if="authorization === null"
+        v-if="!( authorizationReady )"
       >
         <p>Загрузка...</p>
       </div>
@@ -35,15 +35,16 @@
 
 <script setup>
   import authorization from '@/store/authorization'
+  import authorizationReady from '@/store/authorizationReady'
   import useAuthorization from '@/use/authorization'
 
   useAuthorization()
 
   const router = useRouter()
 
-  const onClickLogout = () => {
+  const onClickLogout = async () => {
+    await router.push( '/authorization' )
     authorization.value = false
     localStorage.setItem( 'authorization', false )
-    router.push( '/authorization' )
   }
 </script>

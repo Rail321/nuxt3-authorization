@@ -1,6 +1,9 @@
 <template>
-  <div>
+  <div class="app-min-h-100vh app-d-flex app-flex-column">
     <AppNavbar />
-    <slot />
+
+    <div class="app-flex-grow-1">
+      <slot />
+    </div>
   </div>
 </template>

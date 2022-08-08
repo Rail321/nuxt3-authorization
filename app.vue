@@ -16,6 +16,15 @@
   .app-d-flex {
     display: flex;
   }
+  .app-flex-column {
+    flex-direction: column;
+  }
+  .app-flex-grow-1 {
+    flex-grow: 1;
+  }
+  .app-min-h-100vh {
+    min-height: 100vh;
+  }
   .app-mx-n1 {
     margin-left: -5px;
     margin-right: -5px;
