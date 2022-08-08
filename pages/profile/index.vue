@@ -1,10 +1,10 @@
 <template>
   <div>
     <NuxtLayout>
-      <div
+      <div class="app-flex-grow-1 app-d-flex app-justify-content-center app-align-items-center"
         v-if="!( authorizationReady )"
       >
-        <p>Загрузка...</p>
+        <AppLoader />
       </div>
       
       <div

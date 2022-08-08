@@ -19,6 +19,12 @@
   .app-flex-column {
     flex-direction: column;
   }
+  .app-align-items-center {
+    align-items: center;
+  }
+  .app-justify-content-center {
+    justify-content: center;
+  }
   .app-flex-grow-1 {
     flex-grow: 1;
   }
@@ -37,7 +43,7 @@
     padding-top: 5px;
     padding-bottom: 5px;
   }
-  .app-bg-color-gray {
-    background-color: gray;
+  .app-bg-color-cornflowerblue {
+    background-color: cornflowerblue;
   }
 </style>

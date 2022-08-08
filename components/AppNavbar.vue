@@ -1,5 +1,5 @@
 <template>
-  <div class="app-px-1 app-py-1 app-bg-color-gray">
+  <div class="app-px-1 app-py-1 app-bg-color-cornflowerblue">
     <ul class="app-d-flex app-mx-n1">
       <li class="app-d-flex app-px-1"
         v-for="( item, index ) of list"
