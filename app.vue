@@ -5,45 +5,5 @@
 </template>
 
 <style>
-  * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-  }
-  ul {
-    list-style: none;
-  }
-  .app-d-flex {
-    display: flex;
-  }
-  .app-flex-column {
-    flex-direction: column;
-  }
-  .app-align-items-center {
-    align-items: center;
-  }
-  .app-justify-content-center {
-    justify-content: center;
-  }
-  .app-flex-grow-1 {
-    flex-grow: 1;
-  }
-  .app-min-h-100vh {
-    min-height: 100vh;
-  }
-  .app-mx-n1 {
-    margin-left: -5px;
-    margin-right: -5px;
-  }
-  .app-px-1 {
-    padding-left: 5px;
-    padding-right: 5px;
-  }
-  .app-py-1 {
-    padding-top: 5px;
-    padding-bottom: 5px;
-  }
-  .app-bg-color-cornflowerblue {
-    background-color: cornflowerblue;
-  }
+  @import "@/style";
 </style>
