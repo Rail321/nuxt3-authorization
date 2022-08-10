@@ -1,5 +1,5 @@
 <template>
   <NuxtLayout>
-    <h1>Главная</h1>
+    <h1>Профиль</h1>
   </NuxtLayout>
 </template>
