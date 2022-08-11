@@ -1,5 +1,0 @@
-<template>
-  <NuxtLayout>
-    <h1>Главная</h1>
-  </NuxtLayout>
-</template>

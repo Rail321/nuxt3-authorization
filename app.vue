@@ -1,7 +1,3 @@
 <template>
-  <NuxtPage />
+  <div></div>
 </template>
-
-<style>
-  @import "@/style";
-</style>
